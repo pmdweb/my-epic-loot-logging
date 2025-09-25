@@ -1,0 +1,6 @@
+{
+  "name": "my-epic-loot-logging",
+  "build": { "dockerfile": "Dockerfile" },
+  "workspaceFolder": "/app",
+  "postCreateCommand": "pip install -r requirements-dev.txt"
+}
